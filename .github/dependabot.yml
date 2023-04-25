@@ -1,11 +1,5 @@
 version: 2
 updates:
-  - package-ecosystem: "gradle"
-    directory: "/"
-    schedule:
-      interval: "daily"
-      time: "18:00"
-      timezone: "US/Pacific"
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
