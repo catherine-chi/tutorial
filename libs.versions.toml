@@ -1,0 +1,5 @@
+[versions]
+instabug = "11.3.0"
+
+[libraries]
+instabug = { module = "com.instabug.library:instabug", version.ref = "instabug" }
